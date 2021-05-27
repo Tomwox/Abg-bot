@@ -1,5 +1,5 @@
 
-require 'facebook-messenger'
+require 'facebook/messenger'
 include Facebook::Messenger
 
 Facebook::Messenger::Subscriptions.subscribe(
