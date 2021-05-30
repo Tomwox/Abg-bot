@@ -16,6 +16,6 @@ Facebook::Messenger::Subscriptions.subscribe(
 ACCESS_TOKEN = ENV["ACCESS_TOKEN"]
 puts ACCESS_TOKEN
 
-Facebook::Messenger::Bot.on :message do |message|
-  message.reply(text: 'Hello, human!')
-end
+## Facebook::Messenger::Bot.on :message do |message|
+  ##message.reply(text: 'Hello, human!')
+##end
