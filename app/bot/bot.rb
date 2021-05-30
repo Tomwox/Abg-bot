@@ -12,5 +12,3 @@ Facebook::Messenger::Subscriptions.subscribe(
 Facebook::Messenger::Bot.on :message do |message|
   message.reply(text: 'Hello, human!')
 end
-
-ENV.PORT
