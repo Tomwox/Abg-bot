@@ -9,7 +9,7 @@ Facebook::Messenger::Subscriptions.subscribe(
   subscribed_fields: %w[messages messaging_postbacks]
 )
 
-Faceboook::Messenger::Bot.on :message do |message|
+Facebook::Messenger::Bot.on :message do |message|
   message.reply(text: 'Hello, human!')
 end
 
