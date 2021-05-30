@@ -20,8 +20,5 @@ module BotMessenger
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
 
-    puts config.autoload_paths
-    puts config.paths.add
-
   end
 end
